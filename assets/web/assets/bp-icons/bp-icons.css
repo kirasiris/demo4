@@ -1,0 +1,399 @@
+@font-face {
+  font-family: 'bpIcons';
+  src:  url('bp-icons.eot?spat4u');
+  src:  url('bp-icons.eot?spat4u#iefix') format('embedded-opentype'),
+    url('bp-icons.ttf?spat4u') format('truetype'),
+    url('bp-icons.woff?spat4u') format('woff'),
+    url('bp-icons.svg?spat4u#bpIcons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="bp-"], [class*=" bp-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: bpIcons !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bp-alert:before {
+  content: "\e900";
+}
+.bp-android:before {
+  content: "\e901";
+}
+.bp-apple:before {
+  content: "\e902";
+}
+.bp-arrow-next:before {
+  content: "\e903";
+}
+.bp-arrow-prev:before {
+  content: "\e904";
+}
+.bp-bookmark:before {
+  content: "\e905";
+}
+.bp-bootstrap:before {
+  content: "\e906";
+}
+.bp-briefcase:before {
+  content: "\e907";
+}
+.bp-browse:before {
+  content: "\e908";
+}
+.bp-calendar:before {
+  content: "\e909";
+}
+.bp-camera:before {
+  content: "\e90a";
+}
+.bp-cart-add:before {
+  content: "\e90b";
+}
+.bp-cart-full:before {
+  content: "\e90c";
+}
+.bp-cash:before {
+  content: "\e90d";
+}
+.bp-change-style:before {
+  content: "\e90e";
+}
+.bp-chat:before {
+  content: "\e90f";
+}
+.bp-clock:before {
+  content: "\e910";
+}
+.bp-close:before {
+  content: "\e911";
+}
+.bp-cloud:before {
+  content: "\e912";
+}
+.bp-code:before {
+  content: "\e913";
+}
+.bp-contact-form:before {
+  content: "\e914";
+}
+.bp-credit-card:before {
+  content: "\e915";
+}
+.bp-cursor-click:before {
+  content: "\e916";
+}
+.bp-cust-feedback:before {
+  content: "\e917";
+}
+.bp-database:before {
+  content: "\e918";
+}
+.bp-delivery:before {
+  content: "\e919";
+}
+.bp-desctop:before {
+  content: "\e91a";
+}
+.bp-devices:before {
+  content: "\e91b";
+}
+.bp-down:before {
+  content: "\e91c";
+}
+.bp-download:before {
+  content: "\e91d";
+}
+.bp-drag-n-drop:before {
+  content: "\e91e";
+}
+.bp-edit:before {
+  content: "\e91f";
+}
+.bp-edit2:before {
+  content: "\e920";
+}
+.bp-error:before {
+  content: "\e921";
+}
+.bp-extension:before {
+  content: "\e922";
+}
+.bp-features:before {
+  content: "\e923";
+}
+.bp-file:before {
+  content: "\e924";
+}
+.bp-flag:before {
+  content: "\e925";
+}
+.bp-folder:before {
+  content: "\e926";
+}
+.bp-gift:before {
+  content: "\e927";
+}
+.bp-globe-2:before {
+  content: "\e928";
+}
+.bp-globe:before {
+  content: "\e929";
+}
+.bp-growing-chart:before {
+  content: "\e92a";
+}
+.bp-hearth:before {
+  content: "\e92b";
+}
+.bp-help:before {
+  content: "\e92c";
+}
+.bp-home:before {
+  content: "\e92d";
+}
+.bp-hot-cup:before {
+  content: "\e92e";
+}
+.bp-idea:before {
+  content: "\e92f";
+}
+.bp-image-gallery:before {
+  content: "\e930";
+}
+.bp-image-slider:before {
+  content: "\e931";
+}
+.bp-info:before {
+  content: "\e932";
+}
+.bp-key:before {
+  content: "\e933";
+}
+.bp-laptop:before {
+  content: "\e934";
+}
+.bp-layers:before {
+  content: "\e935";
+}
+.bp-left:before {
+  content: "\e936";
+}
+.bp-letter:before {
+  content: "\e937";
+}
+.bp-like:before {
+  content: "\e938";
+}
+.bp-link:before {
+  content: "\e939";
+}
+.bp-lock:before {
+  content: "\e93a";
+}
+.bp-login:before {
+  content: "\e93b";
+}
+.bp-logout:before {
+  content: "\e93c";
+}
+.bp-magic-stick:before {
+  content: "\e93d";
+}
+.bp-map-pin:before {
+  content: "\e93e";
+}
+.bp-menu:before {
+  content: "\e93f";
+}
+.bp-mobile:before {
+  content: "\e940";
+}
+.bp-mobile2:before {
+  content: "\e941";
+}
+.bp-bp:before {
+  content: "\e942";
+}
+.bp-music:before {
+  content: "\e943";
+}
+.bp-new-file:before {
+  content: "\e944";
+}
+.bp-opened-folder:before {
+  content: "\e945";
+}
+.bp-pages:before {
+  content: "\e946";
+}
+.bp-paper-plane:before {
+  content: "\e947";
+}
+.bp-paperclip:before {
+  content: "\e948";
+}
+.bp-photo:before {
+  content: "\e949";
+}
+.bp-photos:before {
+  content: "\e94a";
+}
+.bp-pin:before {
+  content: "\e94b";
+}
+.bp-play:before {
+  content: "\e94c";
+}
+.bp-plus:before {
+  content: "\e94d";
+}
+.bp-preview:before {
+  content: "\e94e";
+}
+.bp-print:before {
+  content: "\e94f";
+}
+.bp-protect:before {
+  content: "\e950";
+}
+.bp-question:before {
+  content: "\e951";
+}
+.bp-quote:before {
+  content: "\e952";
+}
+.bp-refresh:before {
+  content: "\e953";
+}
+.bp-responsive:before {
+  content: "\e954";
+}
+.bp-right:before {
+  content: "\e955";
+}
+.bp-rocket:before {
+  content: "\e956";
+}
+.bp-sad-face:before {
+  content: "\e957";
+}
+.bp-sale:before {
+  content: "\e958";
+}
+.bp-save:before {
+  content: "\e959";
+}
+.bp-search:before {
+  content: "\e95a";
+}
+.bp-setting:before {
+  content: "\e95b";
+}
+.bp-setting2:before {
+  content: "\e95c";
+}
+.bp-setting3:before {
+  content: "\e95d";
+}
+.bp-share:before {
+  content: "\e95e";
+}
+.bp-shoping-bag:before {
+  content: "\e95f";
+}
+.bp-shoping-basket:before {
+  content: "\e960";
+}
+.bp-shoping-cart:before {
+  content: "\e961";
+}
+.bp-sites:before {
+  content: "\e962";
+}
+.bp-smile-face:before {
+  content: "\e963";
+}
+.bp-speed:before {
+  content: "\e964";
+}
+.bp-star:before {
+  content: "\e965";
+}
+.bp-success:before {
+  content: "\e966";
+}
+.bp-sun:before {
+  content: "\e967";
+}
+.bp-tablet:before {
+  content: "\e968";
+}
+.bp-target:before {
+  content: "\e969";
+}
+.bp-timer:before {
+  content: "\e96a";
+}
+.bp-to-ftp:before {
+  content: "\e96b";
+}
+.bp-to-local-drive:before {
+  content: "\e96c";
+}
+.bp-touch-swipe:before {
+  content: "\e96d";
+}
+.bp-touch:before {
+  content: "\e96e";
+}
+.bp-trash:before {
+  content: "\e96f";
+}
+.bp-unlock:before {
+  content: "\e970";
+}
+.bp-up:before {
+  content: "\e971";
+}
+.bp-upload:before {
+  content: "\e972";
+}
+.bp-user:before {
+  content: "\e973";
+}
+.bp-user2:before {
+  content: "\e974";
+}
+.bp-users:before {
+  content: "\e975";
+}
+.bp-video-play:before {
+  content: "\e976";
+}
+.bp-video:before {
+  content: "\e977";
+}
+.bp-watch:before {
+  content: "\e978";
+}
+.bp-website-theme:before {
+  content: "\e979";
+}
+.bp-wifi:before {
+  content: "\e97a";
+}
+.bp-windows:before {
+  content: "\e97b";
+}
+

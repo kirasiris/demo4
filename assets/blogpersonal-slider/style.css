@@ -1,0 +1,100 @@
+/*-------
+
+   Slider
+
+-------*/
+.bp-slider .carousel-inner > .active,
+.bp-slider .carousel-inner > .next,
+.bp-slider .carousel-inner > .prev {
+	display: table;
+}
+.bp-slider .carousel-control {
+    background-image: none;
+    width: 54px;
+    height: 54px;
+    top: 50%;
+    margin-top: -27px;
+    line-height: 54px;
+    border: 2px solid #fff;
+    opacity: 1;
+    text-shadow: none;
+    z-index: 5;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+}
+.bp-slider .carousel-control.left {
+	margin-left: 20px;
+}
+.bp-slider .carousel-control.right {
+	margin-right: 20px;
+}
+.bp-slider .carousel-control:hover {
+	background: #fff;
+	color: #000;
+}
+.bp-slider .carousel-indicators {
+    bottom: 20px;
+}
+.bp-slider .carousel-indicators li,
+.bp-slider .carousel-indicators .active {
+    width: 15px;
+    height: 15px;
+    margin: 3px;
+    border: 2px solid #ffffff;
+}
+
+@media (max-width: 767px) {
+    .bp-slider .carousel-control {
+        top: auto;
+        bottom: 20px;
+    }
+}
+.bp-slider .bp-overlay {
+    z-index: 0;
+    opacity:0.5;
+}
+/* boxed model */
+.bp-slider > .boxed-slider {
+    position: relative;
+    padding: 93px 0;
+}
+.bp-slider > .boxed-slider > div{
+    position: relative;
+
+}
+.bp-slider > .container .carousel-indicators {
+    margin-bottom: 3px;
+}
+@media (max-width: 767px) {
+    .bp-slider > .container .carousel-control {
+        margin-bottom: 0px;
+    }
+}
+.bp-slider > .container img {
+    width: 100%;
+}
+.bp-slider > .container img + .row {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.bp-slider .bp-section {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* article layout */
+.bp-slider .article-slider > div {
+    padding-left: 0;
+    padding-right: 0;
+}
+.bp-slider > .container.article-slider .carousel-indicators {
+    margin-bottom: 0;
+}
